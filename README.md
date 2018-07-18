@@ -44,3 +44,14 @@ git push origin master
 
 ```
 
+```git checkout master``` switched to the master branch. ```git remote add``` helped you create a label called “upstream” that is connected to the url for the main project. So then when you “pull” the changes down onto your hard drive, you’re pulling the code that lives at the “upstream” url for the main project. `git push origin master` makes your fork (the “origin”) be synced up with what’s on your hard drive.
+
+But what if you also have some work that was in progress? You’re working on code that’s out of date, so how do you combine it with the most up to date code? You need to do something called a `rebase`. A rebase takes your current branch and applies the changes you made to the branch that you specify in the command (in the example below, it’s `master`).
+
+```
+git checkout branch-name
+git rebase master
+git pull upstream
+git push origin master
+```
+
