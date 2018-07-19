@@ -14,7 +14,7 @@ Show the working tree status.We will use this command to show the changes in loc
 
 4. ```git commit -m"commit message" ``` will group your changes together into a commit. The message should be short, describe the work that you did, and include the issue number that you are working on.
 
-5. ```git push origin name-of-branch ``` to save your commit.
+5. ```git push origin name-of-branch ``` to save your commit.Git `push`takes two argument the remote i want to send changes to , and name of local branch that i want to push.
 
 #### Configure remote that points to the upstream repository 
 
@@ -55,3 +55,5 @@ git pull upstream
 git push origin master
 ```
 
+
+>If we first fetch code from the origin master( it may be your fork or your your personal repo), then we directly use ```git rebase origin/master``` or `git merge upstream/master`. Actually when we use fetch command then we have a head pointer that points to `origin/master` or `upstream/master`. Otherwise you can directly use above commands.
