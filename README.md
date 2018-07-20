@@ -58,7 +58,7 @@ git push origin master
 
 >If we first fetch code from the origin master( it may be your fork or your your personal repo), then we directly use ```git rebase origin/master``` or `git merge upstream/master`. Actually when we use fetch command then we have a head pointer that points to `origin/master` or `upstream/master`. Otherwise you can directly use above commands.
 
-#### To magre one branch(development) into other(master)
+#### To megre one branch(development) into other(master)
 
 ```
 git checkout master
