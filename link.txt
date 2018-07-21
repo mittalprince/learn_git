@@ -1,0 +1,13 @@
+Merge vs Rebase https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+
+Syncing a fork https://help.github.com/articles/syncing-a-fork/
+
+Learn-first-contribution https://medium.com/@jenweber/your-first-open-source-contribution-a-step-by-step-technical-guide-d3aca55cc5a6
+
+Stackoverflow link  https://stackoverflow.com/questions/14168677/merge-development-branch-with-master
+
+Learn-MarkDown https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Rebase https://nathanleclaire.com/blog/2014/09/14/dont-be-scared-of-git-rebase/
+
+Learn-Branching https://learngitbranching.js.org/
