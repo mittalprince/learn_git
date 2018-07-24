@@ -65,3 +65,21 @@ git checkout master
 git merge development
 git push origin master
 ```
+
+#### To squash 2 recently pushed commits
+
+```
+git reset --soft HEAD^
+git commit --amend
+```
+#### To squash n pushed commits
+
+```git rebase -i HEAD~n```
+
+* At the interactive screen that opens up, replace pick with squash at the top for all the commits that you want to squash.
+
+* Save and quit your editor, you will get another editor for commit message.
+
+* When you save abd quit, the contents of the edited file become commit message of new combined commit. After that write the command:
+
+```git push origin master --force ```

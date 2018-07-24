@@ -11,3 +11,5 @@ Learn-MarkDown https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 Rebase https://nathanleclaire.com/blog/2014/09/14/dont-be-scared-of-git-rebase/
 
 Learn-Branching https://learngitbranching.js.org/
+
+To visualize git use http://git-school.github.io/visualizing-git/
